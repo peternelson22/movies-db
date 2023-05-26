@@ -12,7 +12,7 @@ const Card = ({ result }) => {
           }`}
           width={500}
           height={300}
-          alt='poster missing'
+          alt='movie poster'
           placeholder='blur'
           blurDataURL='/spinner.svg'
           style={{ maxWidth: '100%', height: 'auto' }}
