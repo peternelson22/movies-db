@@ -3,12 +3,14 @@ import MenuItem from './MenuItem'
 import DarkMode from './DarkMode'
 import { AiFillHome } from 'react-icons/ai'
 import { BsFillInfoCircleFill } from 'react-icons/bs'
+import { MdMovie } from 'react-icons/md'
 
 const Header = () => {
   return (
-    <div className='flex justify-between mx-6 max-w-6xl sm:mx-auto items-center py-6'>
+    <div className='flex justify-between mx-6 max-w-6xl sm:mx-auto items-center py-3'>
       <div className='flex font-mono font-semibold'>
         <MenuItem title='Home' address='/' Icon={AiFillHome} />
+        <MenuItem title='Series' address='/tv' Icon={MdMovie} />
         <MenuItem title='About' address='/about' Icon={BsFillInfoCircleFill} />
       </div>
       <div className='flex items-center space-x-5'>

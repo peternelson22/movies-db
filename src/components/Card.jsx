@@ -16,7 +16,7 @@ const Card = ({ result }) => {
           placeholder='blur'
           blurDataURL='/spinner.svg'
           style={{ maxWidth: '100%', height: 'auto' }}
-          className='sm:rounded-t-lg group-hover:opacity-80 transition-opacity object-cover duration-200'
+          className='sm:rounded-t-lg group-hover:opacity-80 transition-opacity object-cover duration-200 rounded'
         />
         <div className='p-2'>
           <p className='line-clamp-2'>{result.overview}</p>
@@ -29,6 +29,7 @@ const Card = ({ result }) => {
           </p>
         </div>
       </Link>
+      <hr className='mb-3 sm:hidden opacity-20'/>
     </div>
   )
 }
