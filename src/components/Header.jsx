@@ -18,10 +18,10 @@ const Header = () => {
         <Link href='/'>
           <h2 className='text-2xl'>
             <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1 font-mono'>
-              IMDb
+              Son
             </span>
-            <span className='text-xl hidden sm:inline sm:mr-4 lowercase font-mono'>
-              Clone
+            <span className='text-md hidden sm:inline sm:mr-4 lowercase font-mono'>
+              TeeVee
             </span>
           </h2>
         </Link>
