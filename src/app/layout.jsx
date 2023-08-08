@@ -5,8 +5,8 @@ import NavBar from "@/components/NavBar";
 import SearchBox from "@/components/SearchBox";
 
 export const metadata = {
-  title: "IMDB",
-  description: "IMDB Clone",
+  title: "SON TV",
+  description: "A movie database",
 };
 
 export default function RootLayout({ children }) {
